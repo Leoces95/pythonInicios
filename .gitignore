@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files (Caché de Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C-extensions
+*.so
+
+# Distribution / packaging (Archivos de distribución/construcción)
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / Executables
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports (Pruebas unitarias y cobertura)
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments (Entornos virtuales)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Visual Studio Code (Configuraciones de IDE y workspace)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# PyCharm / JetBrains IDEs
+.idea/
+
+# Environment variables (Archivos de variables de entorno con credenciales)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Operating System Files (Archivos del sistema operativo)
+.DS_Store
+Thumbs.db
